@@ -1,49 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesion </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="img/logo2.png">
 </head>
+
 <body>
-    <section>
+    <div class="contenedor">
+        <div>
+            <form>
+                <img class="imglogin" src="img/logo.png" alt="">
+                <h3>Inicio de sesion</h3>
 
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="Ingrese su usuario" id="username">
 
-        <div class="contenedor">
-  
-  
-  
-          <div class="formulario">
-            <form action="#">
-              <h2>Iniciar sesión</h2>
-              <div class="input-contenedor">
-                <i class="fa-solid fa-envelope"></i>
-                <input type="text" id="usuario" required placeholder="Ingrese su usuario:">
-                <label for="#">Usuario:</label>
-              </div>
-              <div class="input-contenedor">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" id="contraseña" required placeholder="Ingrese su contraseña:">
-                <label for="#">Contraseña:</label>
-              </div>
-              <div class="olvidar">
-  
-              </div>
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña" id="password">
+
+              
+                    <a href="inicio.html">
+                        <button type="button" >Ingresar</button>
+                    </a>
+                         
+                
             </form>
-            <div>
-  
-              <button type="button" id="ingreso" onclick=" ingresar()"
-                style="background-color: #ffffff ;">Ingresar</button>
-  
-            </div>
-          </div>
-  
-  
         </div>
-  
-  
-      </section>
+
+        <img src="img/Imagen1.png" alt="fondo">
+    </div>
 </body>
+
 </html>

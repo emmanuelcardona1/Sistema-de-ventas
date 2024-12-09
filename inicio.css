@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: #fff;
+    padding: 20px 20px;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.75);
+}
+
+div{
+    display: flex;
+}
+
+a{
+    color: #fff;
+    margin-right: 20px;
+}
+
+
+
+a :hover{
+    cursor: pointer;
+    color: rgb(86, 86, 88);
+} 
+.fecha{
+    display: flex;
+    align-items: center;
+    border: #fff 1px solid;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.75);
+    margin-top: -5px;
+
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Cambia a columna para centrar verticalmente */
+    justify-content: center;
+    position: relative; /* Asegúrate de que el contenedor tenga posición relativa */
+    height: 100vh; /* Asegúrate de que el contenedor ocupe toda la altura de la ventana */
+}
+
+.logo {
+    position: absolute; /* Cambia a posición absoluta */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde la parte derecha */
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center; /* Esto ya está bien para centrar la imagen */
+    width: 100%; /* Asegúrate de que ocupe el ancho completo */
+}
