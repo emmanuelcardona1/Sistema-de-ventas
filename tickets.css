@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre elementos internos */
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: #fff;
+    padding: 20px 20px;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.75);
+} 
+.nav-link, .user-link {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+a :hover{
+    cursor: pointer;
+    color: rgb(86, 86, 88);
+} 
+.fecha{
+    margin-right:100px ;
+    display: flex;
+    align-items: center;
+    border: #fff 1px solid;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.75);
+    margin-top: -5px;
+
+}
+a{
+    color: #fff;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+.date-range {
+    margin: 20px 0;
+    margin: solid 3px white; 
+}
+
+.date-range input, .date-range button {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+.title{
+    border: solid 3px white;
+    box-shadow:0px 5px 10px 4px rgba(116, 116, 116, 0.75);
+}
+.Enviar{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+    box-shadow:0px 2px 10px 4px rgba(116, 116, 116, 0.75);
+}
+.tabla{
+    padding: 0px 50px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+tbody td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+tr:hover {
+    background-color: #1a1a1a;
+}
+
+tbody tr td:nth-child(6), 
+tbody tr td:nth-child(7) {
+    text-align: right; /* Alinea los valores monetarios a la derecha */
+}
+footer p {
+    color: white;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+footer img {
+    width: 200px;
+    position: absolute;
+    bottom: 10px; /* Ajusta la posición vertical de la imagen */
+    right: 20px; /* Ajusta la posición horizontal de la imagen */
+}

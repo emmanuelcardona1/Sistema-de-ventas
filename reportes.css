@@ -1,0 +1,133 @@
+/* styles.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+/*     overflow: hidden; */
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre elementos internos */
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: #fff;
+    padding: 20px 20px;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.75);
+}   
+.nav-link, .user-link {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+a :hover{
+    cursor: pointer;
+    color: rgb(86, 86, 88);
+} 
+.fecha{
+    margin-right:100px ;
+    display: flex;
+    align-items: center;
+    border: #fff 1px solid;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.75);
+    margin-top: -5px;
+
+}
+a{
+    color: #fff;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+.date-range {
+    margin: 20px 0;
+    margin: solid 3px white; 
+}
+
+.date-range input, .date-range button {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+
+.informacion {
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    box-shadow:0px 5px 10px 4px rgba(116, 116, 116, 0.75);
+}
+.ventas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Enviar{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+}
+
+
+
+footer {
+    position: fixed;
+    margin-top:-80px ;
+    align-items: end;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+footer img {
+    width: 200px;
+}
+
+.title{
+    border: solid 3px white;
+    box-shadow:0px 5px 10px 4px rgba(116, 116, 116, 0.75);
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="icon" href="img/logo2.png">
+    <link rel="stylesheet" href="tickets.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div>
+                <strong>
+                    <a href="ventas.html">Americanas</a>
+                    <a href="reportes.html">Reportes</a>
+                </strong>
+            </div>
+            <div class="fecha">
+                <strong>
+                    <p>Fecha: 2024/12/12</p>
+                </strong>
+            </div>
+            <div>
+                <strong>
+                    <a href="">Usuarios</a>
+                </strong>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+            <h1 class="title">Rango de fechas</h1>
+            <div class="date-range">
+                <label for="from">Desde</label>
+                <input type="date" id="from">
+                <label for="to">Hasta</label>
+                <input type="date" id="to">
+            </div>
+            <button class="Enviar">Enviar</button>
+    </div>
+    <div class="tabla">
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha A/D/M</th>
+                    <th>Código Boleto</th>
+                    <th>Hipódromo</th>
+                    <th>Carrera</th>
+                    <th>Tipo Jugada</th>
+                    <th>Monto</th>
+                    <th>Pago</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024/12/09</td>
+                    <td>240014</td>
+                    <td>Gulfstream Park</td>
+                    <td>C5</td>
+                    <td>Win C2</td>
+                    <td>$2,000</td>
+                    <td>$8,000</td>
+                    <td>Pagado</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+<footer>
+    <img src="img/logo.png" alt="Luxury BET Logo">
+</footer>
+</body>
+
+</html>
